@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSelenium"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.811">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyCurrentURL"
+                time="0.007"
+                classname="Assainments.Selenium13Oct">
+            </testcase>
+            <testcase
+                name="getTitle"
+                time="2.788"
+                classname="Assainments.Selenium13Oct">
+            </testcase>
+            <testcase
+                name="verifyText"
+                time="0.016"
+                classname="Assainments.Selenium13Oct">
+            </testcase>
+</testsuite>

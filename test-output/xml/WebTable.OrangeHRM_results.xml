@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSelenium"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="8.483">
+    <properties></properties>
+
+            <testcase
+                name="homePage"
+                time="4.323"
+                classname="WebTable.OrangeHRM">
+
+            <failure type="org.openqa.selenium.ElementClickInterceptedException" message="element click intercepted: Element &lt;i class=&quot;oxd-icon bi-trash&quot; data-v-013b3fcc=&quot;&quot; data-v-654f8522=&quot;&quot;&gt;&lt;/i&gt; is not clickable at point (1685, 694). Other element would receive the click: &lt;div class=&quot;oxd-dialog-container-default&quot; data-v-7bfc493e=&quot;&quot; data-v-453ff6ba=&quot;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=130.0.6723.117)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a564758dc8099df62bd8a31812c7d85f, clickElement {id=f.0F3229475C99727397E30783C87F256E.d.89E4E30B8A24C10CC002077E71DE1D44.e.163}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\deept\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59724}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59724/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[[[[[ChromeDriver: chrome on windows (a564758dc8099df62bd8a31812c7d85f)] -&gt; xpath: //div[@class=&apos;orangehrm-container&apos;]]] -&gt; xpath: //div[@role=&apos;row&apos;]]] -&gt; xpath: //div[@role=&apos;cell&apos;]]] -&gt; xpath: //i[@class=&apos;oxd-icon bi-trash&apos;]]
+Session ID: a564758dc8099df62bd8a31812c7d85f">
+                <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i class="oxd-icon bi-trash" data-v-013b3fcc="" data-v-654f8522=""></i> is not clickable at point (1685, 694). Other element would receive the click: <div class="oxd-dialog-container-default" data-v-7bfc493e="" data-v-453ff6ba="">...</div>
+  (Session info: chrome=130.0.6723.117)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a564758dc8099df62bd8a31812c7d85f, clickElement {id=f.0F3229475C99727397E30783C87F256E.d.89E4E30B8A24C10CC002077E71DE1D44.e.163}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\deept\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59724}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59724/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[[[[[ChromeDriver: chrome on windows (a564758dc8099df62bd8a31812c7d85f)] -> xpath: //div[@class='orangehrm-container']]] -> xpath: //div[@role='row']]] -> xpath: //div[@role='cell']]] -> xpath: //i[@class='oxd-icon bi-trash']]
+Session ID: a564758dc8099df62bd8a31812c7d85f
+                java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)WebTable.OrangeHRM.homePage(OrangeHRM.java:54)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)java.base/java.lang.reflect.Method.invoke(Method.java:580)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)java.base/java.util.ArrayList.forEach(ArrayList.java:1596)org.testng.TestRunner.privateRun(TestRunner.java:739)org.testng.TestRunner.run(TestRunner.java:614)org.testng.SuiteRunner.runTest(SuiteRunner.java:421)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)org.testng.SuiteRunner.run(SuiteRunner.java:312)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)org.testng.TestNG.runSuitesLocally(TestNG.java:1208)org.testng.TestNG.runSuites(TestNG.java:1112)org.testng.TestNG.run(TestNG.java:1079)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </failure>
+    </testcase>
+
+
+            <testcase
+                name="Login"
+                time="4.160"
+                classname="WebTable.OrangeHRM">
+            </testcase>
+</testsuite>

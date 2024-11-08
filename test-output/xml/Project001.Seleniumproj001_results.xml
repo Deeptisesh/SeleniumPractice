@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LearningSelenium"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.545">
+    <properties></properties>
+
+
+
+            <testcase
+                name="verifyTitleOfVMO"
+                time="7.545"
+                classname="Project001.Seleniumproj001">
+            </testcase>
+</testsuite>
