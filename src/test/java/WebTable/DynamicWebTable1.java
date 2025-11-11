@@ -32,7 +32,7 @@ public class DynamicWebTable1 {
 
 
             List<WebElement> cols=row.findElements(By.tagName("td"));
-            //fowllowng sibbling ,preseaing sibbling ,child parent
+            //following sibling ,preceding sibling,forward sibling ,child, parent
 
 
 

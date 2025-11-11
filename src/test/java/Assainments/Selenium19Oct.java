@@ -23,7 +23,7 @@ public class Selenium19Oct {
         driver.manage().window().maximize();
 
         //Fill in registration form
-        driver.findElement(By.id("input-firstname")).sendKeys("Deepti");
+        driver.findElement(By.id("input-firstname")).sendKeys("Deepti1");
         driver.findElement(By.id("input-lastname")).sendKeys("Seshu");
         driver.findElement(By.name("email")).sendKeys("abc@abc.com");
         driver.findElement(By.id("input-telephone")).sendKeys("1234556777");
